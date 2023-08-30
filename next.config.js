@@ -1,4 +1,4 @@
-import { PHASE_PRODUCTION_SERVER } from "next/dist/shared/lib/constants";
+const { PHASE_PRODUCTION_SERVER } = require("next/constants");
 
 module.exports = (phase) => {
   if (phase === PHASE_PRODUCTION_SERVER) {
